@@ -29,7 +29,7 @@ while not c:
 print(my_key)
 ```
 
-[get_key_pressed example](examples/get_key_pressed.py) - import from project package
+[get_key_pressed example](examples/example_get_key_pressed.py) - import from project package
 
 ## Caveats ##
 The terminal window must remain active, you cannot switch to other windows while waiting for keypress.
