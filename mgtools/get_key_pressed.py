@@ -2,19 +2,12 @@ from tkinter import Tk, Frame
 
 
 def __set_key(e, root, key_pressed):
-    """
-    e - event with attribute 'char', the released key
-    """
     if e.char:
         key_pressed['value'] = e.char
         root.destroy()
 
 
 def get_key(msg="Press any key ...", time_to_sleep=3):
-    """
-    msg - set to empty string if you don't want to print anything
-    time_to_sleep - default 3 seconds
-    """
     if msg:
         print(msg)
     key_pressed = {"value": ''}
